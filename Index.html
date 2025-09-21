@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple HTML5 page demonstrating semantic structure, accessibility, and SEO basics.">
+  <title>HTML5 + Accessibility & SEO Basics</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My HTML5 Demo</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <p>This page shows a clean HTML5 structure with basic accessibility and SEO elements.</p>
+    </section>
+    
+    <section id="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Features</h2>
+      <article>
+        <h3>Semantic HTML5</h3>
+        <p>Uses tags like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code>.</p>
+      </article>
+      <article>
+        <h3>Accessibility</h3>
+        <p>Includes ARIA labels, alt text, and proper heading hierarchy.</p>
+      </article>
+      <article>
+        <h3>SEO</h3>
+        <p>Contains descriptive metadata and well-structured content for search engines.</p>
+      </article>
+    </section>
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <form aria-label="Contact form">
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Ropbie-Tech . All rights reserved.</p>
+  </footer>
+</body>
+</html>
